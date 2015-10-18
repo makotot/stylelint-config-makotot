@@ -1,9 +1,10 @@
 {
   "name": "stylelint-config-makotot",
   "version": "0.0.1",
-  "description": "",
+  "description": "stylelint config",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/makotot/stylelint-config-makotot/issues"
   },
-  "homepage": "https://github.com/makotot/stylelint-config-makotot#readme"
+  "homepage": "https://github.com/makotot/stylelint-config-makotot#readme",
+  "devDependencies": {
+    "eslint": "^1.7.1",
+    "eslint-config-makotot": "0.0.3"
+  }
 }
