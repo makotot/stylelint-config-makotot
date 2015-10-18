@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js",
+    "bump": "npm run lint && ./node_modules/.bin/release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/makotot/stylelint-config-makotot#readme",
   "devDependencies": {
     "eslint": "^1.7.1",
-    "eslint-config-makotot": "0.0.3"
+    "eslint-config-makotot": "0.0.3",
+    "release-it": "^2.3.1"
   }
 }
