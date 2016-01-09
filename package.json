@@ -20,7 +20,7 @@
   "homepage": "https://github.com/makotot/stylelint-config-makotot#readme",
   "devDependencies": {
     "eslint": "^1.8.0",
-    "eslint-config-makotot": "0.0.4",
+    "eslint-config-makotot": "0.0.6",
     "release-it": "^2.3.1"
   }
 }
